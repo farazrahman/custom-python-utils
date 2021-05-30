@@ -9,8 +9,9 @@ from datetime import datetime, timedelta
 
 def fetch_website_details(url_address: str, header: Dict[str, str]):
     """
+    Function to scrape and parse html content from a URL
     :param url_address: get the url address of the website you want to parse
-    :param header: get the request headers. TODO: Add more details here
+    :param header: get the request headers.
     :return:
     """
     URL = url_address
